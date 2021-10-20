@@ -1,8 +1,8 @@
 $(function () {
     // 点击qh 切换12345
     $('.qh>div').click(function () {
-    $(this).addClass('active').siblings().removeClass('active');
-      $('.rule-bjz li').eq($(this).index()).show().siblings().hide();
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.rule-bjz li').eq($(this).index()).show().siblings().hide();
 
     })
 
@@ -27,7 +27,7 @@ $(function () {
         $('.zjx').fadeIn();
         $('.rule-bjz').addClass('active');
         $('.picture').addClass('active');
-        $('.camera').show();
+        // $('.camera').show();
         $('.box-rule').removeClass("dn");
         $('.box-rule>div').removeClass("dn");
     })
@@ -72,10 +72,16 @@ $(function () {
         })
     }
 
+    var moveload = document.querySelector('.picture-img');
+    moveload.onload = function () {
+        var w_img = $('.picture-img').width();
+        var h_img = $('.picture-img').height();
+        $('.picture-click').css("width", w_img);
+        $('.picture-click').css("height", h_img);
+    }
     // 获取元素
     var box = document.querySelector('.picture');
-    var move = document.querySelector('.picture-img');
-
+    var move = document.querySelector('.picture-click');
     var startY = 0;
     var startX = 0;
     var y = 0;
@@ -101,9 +107,11 @@ $(function () {
         }
         if (moveX >= box.offsetWidth - move.offsetWidth) {
             moveX = box.offsetWidth - move.offsetWidth;
+            console.log(5555);
         }
-        if (moveY >= box.offsetWidth - move.offsetHeight) {
-            moveY = box.offsetWidth - move.offsetHeight;
+        if (moveY >= 669 - (move.offsetWidth + 102)) {
+            moveY = 669 - (move.offsetWidth + 102);
+            console.log(6666);
         }
         // 最后给this也就是小盒子加上left 和top值
         this.style.left = moveX + 'px';
@@ -121,24 +129,12 @@ $(function () {
             return false
         }
         // 使用插件截图
-        console.log(document.querySelector(".picture .active"));
-        html2canvas(document.querySelector(".picture.active"), {
+        html2canvas(document.querySelector(".picture-click"), {
             useCORS: true,
         }).then(canvas => {
-
             // document.body.appendChild(canvas)
-       
-            $('.save-1 .picture').append(canvas);
-            console.log(5456);
+            $('.picture').append(canvas);
         });
-
-        // html2canvas(document.querySelector(".rule-bjz"), {
-        //     useCORS: true,
-        // }).then(canvas => {
-        //     // document.body.appendChild(canvas)
-        //     $('.save-1').append(canvas);
-        //     console.log(canvas);
-        // });
 
         $('.box-rule').fadeOut();
         $('.save-1').fadeIn();

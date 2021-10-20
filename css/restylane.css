@@ -323,6 +323,21 @@ body {
   height: 100%;
   position: relative;
 }
+.box-rule .qie-huan .xc {
+  position: relative;
+  top: 257px;
+  left: 125px;
+}
+.box-rule .qie-huan .camera {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 905px;
+  left: 350px;
+  z-index: 2;
+  display: block !important;
+  animation: 1s shakeX forwards;
+}
 .box-rule .qie-huan .file1 {
   position: absolute;
   width: 50px;
@@ -339,13 +354,12 @@ body {
   z-index: 1;
   width: 490px;
   height: 669px;
-  overflow: scroll;
-  display: none;
+  overflow: hidden;
 }
-.box-rule .qie-huan .picture img {
+.box-rule .qie-huan .picture .picture-click {
   position: absolute;
-  left: 23%;
   top: 0%;
+  left: 21%;
 }
 .box-rule .qie-huan .silk7 {
   top: 0;
