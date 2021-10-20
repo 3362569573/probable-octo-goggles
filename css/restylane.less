@@ -1,0 +1,961 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dn {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.layer {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(82, 66, 66, 0.349);
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+
+
+.bigbox {
+    background: url(../img/backr.png) no-repeat center;
+    width: 100%;
+    position: relative;
+    height: 3497px;
+}
+
+// 首页样式开始
+.head {
+    width: 100%;
+    height: 1087px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .logo {
+        position: absolute;
+        top: 73px;
+        left: 230px;
+        animation: 1.7s zoomInDown forwards;
+    }
+
+    .slogan {
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: 2.1s wobble forwards;
+    }
+
+    .balloon1 {
+        position: absolute;
+        left: 0;
+        top: 380px;
+        animation: 1s flash1 forwards linear infinite alternate
+    }
+
+    .silk1 {
+        position: absolute;
+        right: 0;
+        top: 287px;
+        animation: silk1 4s 1s both;
+    }
+
+    .loveew {
+        position: absolute;
+        left: 0;
+        animation: 3s lightSpeedInLeft forwards;
+        top: 590px;
+    }
+
+    .star1 {
+        position: absolute;
+        top: 530px;
+        left: 630px;
+        animation: 1s flash forwards linear infinite alternate;
+    }
+
+    .blue {
+        position: absolute;
+        top: 686px;
+        left: 81px;
+    }
+
+    .es {
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        top: 0px;
+    }
+
+    .balloon2 {
+        position: absolute;
+        top: 697px;
+        left: 517px;
+        animation: 2s flash1 forwards linear infinite alternate;
+    }
+
+    .balloon3 {
+        animation: 2s flash1 forwards linear infinite alternate;
+        position: absolute;
+        top: 864px;
+        left: 595px;
+    }
+
+    .silk2 {
+        position: absolute;
+        right: 0;
+        top: 600px;
+        animation: silk2 4s 2.1s both;
+    }
+
+    .star2 {
+        position: absolute;
+        top: 1269px;
+        left: 73px;
+        animation: 1s flash forwards linear infinite alternate;
+    }
+
+    .beauty {
+        position: absolute;
+        top: 1286px;
+        left: 386px;
+    }
+
+    .silk3 {
+        position: absolute;
+        top: 1578px;
+        left: 0;
+    }
+
+    .star3 {
+        position: absolute;
+        top: 1514px;
+        left: 139px;
+        animation: 1s flash forwards linear infinite alternate;
+    }
+
+}
+
+.conert {
+    height: 1765px;
+    position: relative;
+    width: 100%;
+    top: 1087px;
+    overflow: hidden;
+
+    .model {
+        position: absolute;
+        top: 30px;
+        left: 198px;
+    }
+
+    .heart {
+        position: absolute;
+        top: 510px;
+        left: 0;
+    }
+
+    .silk4 {
+        position: absolute;
+        top: -1068px;
+        left: 0;
+    }
+
+    .star4 {
+        position: absolute;
+        top: 1242px;
+        left: 56px;
+    }
+
+    .rmm4 {
+        position: absolute;
+        top: 750px;
+        left: 541px;
+    }
+
+    .heart2 {
+        position: absolute;
+        top: 1030px;
+        left: 480px;
+    }
+
+    .heart3 {
+        position: absolute;
+        top: 1137px;
+        left: 470px;
+    }
+
+    .petrol {
+        position: absolute;
+        top: 1308px;
+        left: 204px;
+    }
+
+    .star5 {
+        position: absolute;
+        bottom: 43px;
+        left: 100px;
+    }
+}
+
+.bottom {
+    top: 1086px;
+    height: 645px;
+    position: relative;
+
+    // .light{
+    //     position: absolute;
+    //     top: 282px;
+    //     left: 90px;
+    // }
+    .star7 {
+        position: absolute;
+        top: 296px;
+        right: 57px;
+    }
+
+    .bottom1 {
+        position: absolute;
+        bottom: 0;
+        left: 70px;
+    }
+}
+
+// 首页样式结束
+// 规则说明弹开始
+.rule {
+    background: url(../img/rule-bjz.png) no-repeat;
+    width: 497px;
+    height: 675px;
+    top: 387px;
+    left: 125px;
+    position: relative;
+
+    .× {
+        position: absolute;
+        top: 12px;
+        right: 35px;
+    }
+
+    .button2 {
+        position: absolute;
+        top: 55px;
+        left: 163px;
+    }
+
+    .scndwz {
+        position: absolute;
+        top: 205px;
+        left: 107px;
+    }
+
+    .time {
+        position: absolute;
+        top: 505px;
+        left: 115px;
+    }
+}
+
+#rule-x {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+// 规则说明弹结束
+// <!-- 规则说明开始 -->
+.box-rule {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    position: absolute;
+    background: url(../img/backr.png) no-repeat;
+
+    .input {}
+
+    .cmq {
+        top: 596px;
+        left: 160px;
+        animation: 2s bounceIn forwards;
+    }
+
+    .arrows {
+        position: absolute;
+        right: 30px;
+        top: 22px;
+        width: 93px;
+        height: 78px;
+        animation: 2s lightSpeedInRight forwards;
+    }
+
+    .relay-img {
+        top: 0;
+        left: 23px;
+        animation: 2s rotateInDownRight forwards;
+    }
+
+    .gzsm {
+        position: absolute;
+        top: 440px;
+        left: 287px;
+        width: 176px;
+        height: 62px;
+        animation: 4s flipInY 1.5s forwards;
+    }
+
+    .silk6 {
+        right: 0;
+        top: 0;
+    }
+
+    .blok {
+        top: 596px;
+        left: 160px;
+    }
+
+    .aq {
+        position: relative;
+        top: 887px;
+        left: 247px;
+        width: 200px;
+
+        .aq-psychology {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .aq-love {
+            position: absolute;
+            top: 0;
+            left: 100px;
+        }
+
+        .aq-youth {
+            position: absolute;
+            top: 0;
+            right: 0px;
+        }
+    }
+
+    .poster {
+        position: absolute;
+        left: 195px;
+        top: 1142px;
+        width: 298px;
+        height: 146px;
+        animation: 3s fadeInUp forwards;
+    }
+
+    .star2 {
+        top: 185px;
+        left: 460px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star5 {
+        top: 155px;
+        right: -17px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star4 {
+        left: 43px;
+        top: 575px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star41 {
+        top: 828px;
+        right: 50px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star21 {
+        top: 1208px;
+        right: 86px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star5 {
+        top: 1118px;
+        left: 63px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    // 切换楼1开始
+    .qie-huan {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        // display: none;
+
+        .file1 {
+            // display: none;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 904px;
+            left: 350px;
+            z-index: 3;
+            opacity: 0;
+        }
+
+        .picture {
+            position: absolute;
+            top: 260px;
+            left: 128px;
+            z-index: 1;
+            width: 490px;
+            height: 669px;
+            overflow: scroll;
+            display: none;
+
+            img {
+                position: absolute;
+                left: 23%;
+                top: 0%;
+            }
+        }
+
+        .silk7 {
+            top: 0;
+            right: 0;
+            animation: 0.5s fadeInRight forwards;
+
+        }
+
+        .affirm {
+            position: absolute;
+            width: 298px;
+            height: 146px;
+            top: 1143px;
+            left: 200px;
+        }
+
+        .qh {
+            position: absolute;
+            top: 147px;
+            left: 112px;
+            width: 503px;
+            height: 92px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            // animation: 1.5s 0.5s flip forwards;
+            >div {
+                >img:nth-of-type(2) {
+                    display: none;
+                }
+
+                margin-left: 20px;
+                width: 90px;
+                height: 100%;
+
+                &.active {
+                    img {
+                        &:nth-of-type(1) {
+                            display: none;
+                        }
+
+                        &:nth-of-type(2) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+
+        .rule-bjz {
+            position: relative;
+            top: 257px;
+            left: 125px;
+
+            li {
+                display: none;
+
+                &.active {
+                    display: block;
+
+                    div {
+                        display: block;
+                    }
+                }
+            }
+            .animate {
+                animation: 1s backInLeft forwards;
+            }
+
+            .filv2 {
+                position: absolute;
+                z-index: 2;
+                left: 317px;
+                top: 30px;
+            }
+
+            .tow-ew {
+                position: absolute;
+                z-index: 2;
+                top: 617px;
+                left: 66px;
+                // animation: 1s backInLeft forwards;
+            }
+
+            .always {
+                position: absolute;
+                z-index: 2;
+                top: 34px;
+                left: 34px;
+                // animation: 1s backInLeft forwards;
+            }
+
+            .thrn3 {
+                position: absolute;
+                z-index: 2;
+                top: 10px;
+                left: 12px;
+                // animation: 1s backInLeft forwards;
+
+            }
+
+            .thrnsul {
+                position: absolute;
+                z-index: 2;
+                top: 595px;
+                left: 100px;
+                // animation: 1s backInLeft forwards;
+
+            }
+
+            .fouralwre {
+                position: absolute;
+                z-index: 2;
+                top: 595px;
+                left: 100px;
+                // animation: 1s backInLeft forwards;
+
+            }
+
+            .cfx {
+                top: 615px;
+                left: 95px;
+                // animation: 1s backInLeft forwards;
+
+            }
+
+            .fore-ew {
+                position: absolute;
+                z-index: 2;
+                top: 480px;
+                left: 0;
+                // animation: 1s backInLeft forwards;
+
+            }
+
+            .fivealways {
+                position: absolute;
+                z-index: 2;
+                left: 182px;
+                // animation: 1s backInLeft forwards;
+
+                top: 490px;
+            }
+        }
+
+        .camera {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 905px;
+            left: 350px;
+            z-index: 2;
+            display: none;
+            animation: 1s shakeX forwards;
+
+        }
+
+        .star5 {
+            top: 48px;
+            left: 220px;
+            animation: 1s flash forwards linear infinite alternate;
+
+        }
+
+        .star4 {
+            top: 263px;
+            left: 44px;
+            animation: 1s flash forwards linear infinite alternate;
+
+        }
+
+        .star41 {
+            top: 617px;
+            right: 23px;
+            animation: 1s flash forwards linear infinite alternate;
+
+        }
+
+        .star6 {
+            top: 920px;
+            left: 30px;
+            animation: 1s flash forwards linear infinite alternate;
+
+        }
+
+        .star51 {
+            top: 1187px;
+            right: 99px;
+            animation: 1s flash forwards linear infinite alternate;
+
+        }
+
+        .share {
+            width: 75px;
+            height: 42px;
+            position: absolute;
+            top: 36px;
+            right: 38px;
+        }
+
+        .star66 {
+            top: 145px;
+            animation: 1s flash forwards linear infinite alternate;
+            left: 551px;
+        }
+
+
+
+        .star55 {
+            top: 1224px;
+
+            animation: 1s flash forwards linear infinite alternate;
+            right: 33px;
+        }
+
+        // 切换楼1结束
+        // 切换楼2开始
+        // 切换楼2结束
+    }
+}
+
+// <!-- 规则说明结束 -->
+// 海报保存开始
+.save-1 {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    position: absolute;
+    background: url(../img/backr.png) no-repeat;
+
+    .silk7 {
+        top: 0;
+        right: 0;
+        animation: 0.5s fadeInRight forwards;
+    }
+
+    .picture {
+        position: absolute;
+        top: 260px;
+        left: 128px;
+        z-index: 1;
+        width: 497px;
+        height: 666px;
+        overflow: hidden;
+        display: none;
+
+        img {
+            position: absolute;
+            left: 23%;
+            top: 0%;
+        }
+    }
+
+    .rule-bjz {
+        position: relative;
+        top: 257px;
+        left: 125px;
+        display: none;
+
+        .filv2 {
+            position: absolute;
+            z-index: 2;
+            left: 317px;
+            top: 30px;
+        }
+
+    }
+
+    .share {
+        position: absolute;
+        top: 36px;
+        right: 38px;
+        width: 75px;
+        height: 42px;
+        animation: 1s fadeInRight forwards;
+
+    }
+
+    .star66 {
+        top: 183px;
+        left: 459px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .save {
+        position: absolute;
+        top: 1140px;
+        left: 62px;
+        width: 298px;
+        height: 146px;
+    }
+
+    .ranking {
+        position: absolute;
+        top: 1140px;
+        right: 108px;
+        width: 298px;
+        height: 146px;
+    }
+
+    .star55 {
+        top: 1224px;
+        right: 33px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star5 {
+        top: 48px;
+        left: 220px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star4 {
+        top: 263px;
+        left: 44px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star41 {
+        top: 617px;
+        right: 23px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star6 {
+        top: 920px;
+        left: 30px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star51 {
+        top: 1187px;
+        right: 99px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+}
+
+// 海报保存结束
+// 排行榜样式开始
+.phb {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    position: absolute;
+    background: url(../img/backr.png) no-repeat;
+
+    .star55 {
+        top: 1224px;
+        right: 33px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star5 {
+        top: 48px;
+        left: 220px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star4 {
+        top: 263px;
+        left: 44px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star41 {
+        top: 617px;
+        right: 23px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star6 {
+        top: 920px;
+        left: 30px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star51 {
+        top: 1187px;
+        right: 99px;
+        animation: 1s flash forwards linear infinite alternate;
+
+    }
+
+    .star66 {
+        top: 150px;
+        animation: 1s flash forwards linear infinite alternate;
+        left: 535px;
+    }
+
+
+
+    .star55 {
+        top: 1224px;
+
+        animation: 1s flash forwards linear infinite alternate;
+        right: 33px;
+    }
+
+    ul {
+        width: 595px;
+        height: 936px;
+        position: absolute;
+        top: 210px;
+        left: 81px;
+
+        li {
+            animation: 1s fadeInDown forwards linear;
+            width: 100%;
+            height: 120px;
+            margin-bottom: 47px;
+            background: #e6f6f6;
+            border-radius: 5%;
+
+            .love-heart {
+                float: right;
+                margin-right: 53px;
+                width: 44px;
+                height: 41px;
+                margin-top: 45px;
+            }
+
+            .taxon {
+                img {
+                    &:nth-of-type(1) {
+                        display: block;
+                    }
+
+                    &:nth-of-type(2) {
+                        display: none;
+                    }
+                }
+            }
+
+            .head1 {
+                float: left;
+            }
+
+            .wechat {
+                float: left;
+                margin-left: 150px;
+                color: #002d72;
+                line-height: 120px;
+                font-size: 18px;
+            }
+
+            .champion {
+                float: left;
+                margin-top: 33px;
+                margin-left: 54px;
+            }
+
+            .figure {
+                float: left;
+                margin-left: 172px;
+                line-height: 120px;
+                font-size: 18px;
+                color: #002d72;
+
+            }
+        }
+    }
+
+    .play {
+        width: 298px;
+        height: 146px;
+        position: absolute;
+        top: 1229px;
+        left: 205px;
+    }
+
+    .ranking-1 {
+        position: absolute;
+        top: 74px;
+        left: 205px;
+        width: 298px;
+        height: 146px;
+    }
+}
+
+// 排行榜样式结束
+// 排行弹出榜样式开始
+.phb-ball {
+
+    .garden {
+        top: 590px;
+        left: 129px;
+    }
+
+    .share {
+        width: 75px;
+        height: 42px;
+        position: absolute;
+        top: 36px;
+        right: 38px;
+    }
+
+    .garden-wz {
+        position: absolute;
+        top: 638px;
+        left: 175px;
+    }
+
+    .xx {
+        position: absolute;
+        top: 609px;
+        right: 150px;
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.artive {
+    display: block;
+}
+
+// 排行榜弹出样式结束

@@ -1,0 +1,739 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.dn {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+}
+.layer {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(82, 66, 66, 0.349);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bigbox {
+  background: url(../img/backr.png) no-repeat center;
+  width: 100%;
+  position: relative;
+  height: 3497px;
+}
+.head {
+  width: 100%;
+  height: 1087px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.head .logo {
+  position: absolute;
+  top: 73px;
+  left: 230px;
+  animation: 1.7s zoomInDown forwards;
+}
+.head .slogan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: 2.1s wobble forwards;
+}
+.head .balloon1 {
+  position: absolute;
+  left: 0;
+  top: 380px;
+  animation: 1s flash1 forwards linear infinite alternate;
+}
+.head .silk1 {
+  position: absolute;
+  right: 0;
+  top: 287px;
+  animation: silk1 4s 1s both;
+}
+.head .loveew {
+  position: absolute;
+  left: 0;
+  animation: 3s lightSpeedInLeft forwards;
+  top: 590px;
+}
+.head .star1 {
+  position: absolute;
+  top: 530px;
+  left: 630px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.head .blue {
+  position: absolute;
+  top: 686px;
+  left: 81px;
+}
+.head .es {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0px;
+}
+.head .balloon2 {
+  position: absolute;
+  top: 697px;
+  left: 517px;
+  animation: 2s flash1 forwards linear infinite alternate;
+}
+.head .balloon3 {
+  animation: 2s flash1 forwards linear infinite alternate;
+  position: absolute;
+  top: 864px;
+  left: 595px;
+}
+.head .silk2 {
+  position: absolute;
+  right: 0;
+  top: 600px;
+  animation: silk2 4s 2.1s both;
+}
+.head .star2 {
+  position: absolute;
+  top: 1269px;
+  left: 73px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.head .beauty {
+  position: absolute;
+  top: 1286px;
+  left: 386px;
+}
+.head .silk3 {
+  position: absolute;
+  top: 1578px;
+  left: 0;
+}
+.head .star3 {
+  position: absolute;
+  top: 1514px;
+  left: 139px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.conert {
+  height: 1765px;
+  position: relative;
+  width: 100%;
+  top: 1087px;
+  overflow: hidden;
+}
+.conert .model {
+  position: absolute;
+  top: 30px;
+  left: 198px;
+}
+.conert .heart {
+  position: absolute;
+  top: 510px;
+  left: 0;
+}
+.conert .silk4 {
+  position: absolute;
+  top: -1068px;
+  left: 0;
+}
+.conert .star4 {
+  position: absolute;
+  top: 1242px;
+  left: 56px;
+}
+.conert .rmm4 {
+  position: absolute;
+  top: 750px;
+  left: 541px;
+}
+.conert .heart2 {
+  position: absolute;
+  top: 1030px;
+  left: 480px;
+}
+.conert .heart3 {
+  position: absolute;
+  top: 1137px;
+  left: 470px;
+}
+.conert .petrol {
+  position: absolute;
+  top: 1308px;
+  left: 204px;
+}
+.conert .star5 {
+  position: absolute;
+  bottom: 43px;
+  left: 100px;
+}
+.bottom {
+  top: 1086px;
+  height: 645px;
+  position: relative;
+}
+.bottom .star7 {
+  position: absolute;
+  top: 296px;
+  right: 57px;
+}
+.bottom .bottom1 {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
+.rule {
+  background: url(../img/rule-bjz.png) no-repeat;
+  width: 497px;
+  height: 675px;
+  top: 387px;
+  left: 125px;
+  position: relative;
+}
+.rule .× {
+  position: absolute;
+  top: 12px;
+  right: 35px;
+}
+.rule .button2 {
+  position: absolute;
+  top: 55px;
+  left: 163px;
+}
+.rule .scndwz {
+  position: absolute;
+  top: 205px;
+  left: 107px;
+}
+.rule .time {
+  position: absolute;
+  top: 505px;
+  left: 115px;
+}
+#rule-x {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+.box-rule {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  background: url(../img/backr.png) no-repeat;
+}
+.box-rule .cmq {
+  top: 596px;
+  left: 160px;
+  animation: 2s bounceIn forwards;
+}
+.box-rule .arrows {
+  position: absolute;
+  right: 30px;
+  top: 22px;
+  width: 93px;
+  height: 78px;
+  animation: 2s lightSpeedInRight forwards;
+}
+.box-rule .relay-img {
+  top: 0;
+  left: 23px;
+  animation: 2s rotateInDownRight forwards;
+}
+.box-rule .gzsm {
+  position: absolute;
+  top: 440px;
+  left: 287px;
+  width: 176px;
+  height: 62px;
+  animation: 4s flipInY 1.5s forwards;
+}
+.box-rule .silk6 {
+  right: 0;
+  top: 0;
+}
+.box-rule .blok {
+  top: 596px;
+  left: 160px;
+}
+.box-rule .aq {
+  position: relative;
+  top: 887px;
+  left: 247px;
+  width: 200px;
+}
+.box-rule .aq .aq-psychology {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box-rule .aq .aq-love {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+.box-rule .aq .aq-youth {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.box-rule .poster {
+  position: absolute;
+  left: 195px;
+  top: 1142px;
+  width: 298px;
+  height: 146px;
+  animation: 3s fadeInUp forwards;
+}
+.box-rule .star2 {
+  top: 185px;
+  left: 460px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .star5 {
+  top: 155px;
+  right: -17px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .star4 {
+  left: 43px;
+  top: 575px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .star41 {
+  top: 828px;
+  right: 50px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .star21 {
+  top: 1208px;
+  right: 86px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .star5 {
+  top: 1118px;
+  left: 63px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .qie-huan {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.box-rule .qie-huan .file1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 904px;
+  left: 350px;
+  z-index: 3;
+  opacity: 0;
+}
+.box-rule .qie-huan .picture {
+  position: absolute;
+  top: 260px;
+  left: 128px;
+  z-index: 1;
+  width: 490px;
+  height: 669px;
+  overflow: scroll;
+  display: none;
+}
+.box-rule .qie-huan .picture img {
+  position: absolute;
+  left: 23%;
+  top: 0%;
+}
+.box-rule .qie-huan .silk7 {
+  top: 0;
+  right: 0;
+  animation: 0.5s fadeInRight forwards;
+}
+.box-rule .qie-huan .affirm {
+  position: absolute;
+  width: 298px;
+  height: 146px;
+  top: 1143px;
+  left: 200px;
+}
+.box-rule .qie-huan .qh {
+  position: absolute;
+  top: 147px;
+  left: 112px;
+  width: 503px;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-rule .qie-huan .qh > div {
+  margin-left: 20px;
+  width: 90px;
+  height: 100%;
+}
+.box-rule .qie-huan .qh > div > img:nth-of-type(2) {
+  display: none;
+}
+.box-rule .qie-huan .qh > div.active img:nth-of-type(1) {
+  display: none;
+}
+.box-rule .qie-huan .qh > div.active img:nth-of-type(2) {
+  display: block;
+}
+.box-rule .qie-huan .rule-bjz {
+  position: relative;
+  top: 257px;
+  left: 125px;
+}
+.box-rule .qie-huan .rule-bjz li {
+  display: none;
+}
+.box-rule .qie-huan .rule-bjz li.active {
+  display: block;
+}
+.box-rule .qie-huan .rule-bjz li.active div {
+  display: block;
+}
+.box-rule .qie-huan .rule-bjz .animate {
+  animation: 1s backInLeft forwards;
+}
+.box-rule .qie-huan .rule-bjz .filv2 {
+  position: absolute;
+  z-index: 2;
+  left: 317px;
+  top: 30px;
+}
+.box-rule .qie-huan .rule-bjz .tow-ew {
+  position: absolute;
+  z-index: 2;
+  top: 617px;
+  left: 66px;
+}
+.box-rule .qie-huan .rule-bjz .always {
+  position: absolute;
+  z-index: 2;
+  top: 34px;
+  left: 34px;
+}
+.box-rule .qie-huan .rule-bjz .thrn3 {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 12px;
+}
+.box-rule .qie-huan .rule-bjz .thrnsul {
+  position: absolute;
+  z-index: 2;
+  top: 595px;
+  left: 100px;
+}
+.box-rule .qie-huan .rule-bjz .fouralwre {
+  position: absolute;
+  z-index: 2;
+  top: 595px;
+  left: 100px;
+}
+.box-rule .qie-huan .rule-bjz .cfx {
+  top: 615px;
+  left: 95px;
+}
+.box-rule .qie-huan .rule-bjz .fore-ew {
+  position: absolute;
+  z-index: 2;
+  top: 480px;
+  left: 0;
+}
+.box-rule .qie-huan .rule-bjz .fivealways {
+  position: absolute;
+  z-index: 2;
+  left: 182px;
+  top: 490px;
+}
+.box-rule .qie-huan .camera {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 905px;
+  left: 350px;
+  z-index: 2;
+  display: none;
+  animation: 1s shakeX forwards;
+}
+.box-rule .qie-huan .star5 {
+  top: 48px;
+  left: 220px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .qie-huan .star4 {
+  top: 263px;
+  left: 44px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .qie-huan .star41 {
+  top: 617px;
+  right: 23px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .qie-huan .star6 {
+  top: 920px;
+  left: 30px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .qie-huan .star51 {
+  top: 1187px;
+  right: 99px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.box-rule .qie-huan .share {
+  width: 75px;
+  height: 42px;
+  position: absolute;
+  top: 36px;
+  right: 38px;
+}
+.box-rule .qie-huan .star66 {
+  top: 145px;
+  animation: 1s flash forwards linear infinite alternate;
+  left: 551px;
+}
+.box-rule .qie-huan .star55 {
+  top: 1224px;
+  animation: 1s flash forwards linear infinite alternate;
+  right: 33px;
+}
+.save-1 {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  background: url(../img/backr.png) no-repeat;
+}
+.save-1 .silk7 {
+  top: 0;
+  right: 0;
+  animation: 0.5s fadeInRight forwards;
+}
+.save-1 .picture {
+  position: absolute;
+  top: 260px;
+  left: 128px;
+  z-index: 1;
+  width: 497px;
+  height: 666px;
+  overflow: hidden;
+  display: none;
+}
+.save-1 .picture img {
+  position: absolute;
+  left: 23%;
+  top: 0%;
+}
+.save-1 .rule-bjz {
+  position: relative;
+  top: 257px;
+  left: 125px;
+  display: none;
+}
+.save-1 .rule-bjz .filv2 {
+  position: absolute;
+  z-index: 2;
+  left: 317px;
+  top: 30px;
+}
+.save-1 .share {
+  position: absolute;
+  top: 36px;
+  right: 38px;
+  width: 75px;
+  height: 42px;
+  animation: 1s fadeInRight forwards;
+}
+.save-1 .star66 {
+  top: 183px;
+  left: 459px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.save-1 .save {
+  position: absolute;
+  top: 1140px;
+  left: 62px;
+  width: 298px;
+  height: 146px;
+}
+.save-1 .ranking {
+  position: absolute;
+  top: 1140px;
+  right: 108px;
+  width: 298px;
+  height: 146px;
+}
+.save-1 .star55 {
+  top: 1224px;
+  right: 33px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.save-1 .star5 {
+  top: 48px;
+  left: 220px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.save-1 .star4 {
+  top: 263px;
+  left: 44px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.save-1 .star41 {
+  top: 617px;
+  right: 23px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.save-1 .star6 {
+  top: 920px;
+  left: 30px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.save-1 .star51 {
+  top: 1187px;
+  right: 99px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.phb {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  background: url(../img/backr.png) no-repeat;
+}
+.phb .star55 {
+  top: 1224px;
+  right: 33px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.phb .star5 {
+  top: 48px;
+  left: 220px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.phb .star4 {
+  top: 263px;
+  left: 44px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.phb .star41 {
+  top: 617px;
+  right: 23px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.phb .star6 {
+  top: 920px;
+  left: 30px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.phb .star51 {
+  top: 1187px;
+  right: 99px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.phb .star66 {
+  top: 150px;
+  animation: 1s flash forwards linear infinite alternate;
+  left: 535px;
+}
+.phb .star55 {
+  top: 1224px;
+  animation: 1s flash forwards linear infinite alternate;
+  right: 33px;
+}
+.phb ul {
+  width: 595px;
+  height: 936px;
+  position: absolute;
+  top: 210px;
+  left: 81px;
+}
+.phb ul li {
+  animation: 1s fadeInDown forwards linear;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 47px;
+  background: #e6f6f6;
+  border-radius: 5%;
+}
+.phb ul li .love-heart {
+  float: right;
+  margin-right: 53px;
+  width: 44px;
+  height: 41px;
+  margin-top: 45px;
+}
+.phb ul li .taxon img:nth-of-type(1) {
+  display: block;
+}
+.phb ul li .taxon img:nth-of-type(2) {
+  display: none;
+}
+.phb ul li .head1 {
+  float: left;
+}
+.phb ul li .wechat {
+  float: left;
+  margin-left: 150px;
+  color: #002d72;
+  line-height: 120px;
+  font-size: 18px;
+}
+.phb ul li .champion {
+  float: left;
+  margin-top: 33px;
+  margin-left: 54px;
+}
+.phb ul li .figure {
+  float: left;
+  margin-left: 172px;
+  line-height: 120px;
+  font-size: 18px;
+  color: #002d72;
+}
+.phb .play {
+  width: 298px;
+  height: 146px;
+  position: absolute;
+  top: 1229px;
+  left: 205px;
+}
+.phb .ranking-1 {
+  position: absolute;
+  top: 74px;
+  left: 205px;
+  width: 298px;
+  height: 146px;
+}
+.phb-ball .garden {
+  top: 590px;
+  left: 129px;
+}
+.phb-ball .share {
+  width: 75px;
+  height: 42px;
+  position: absolute;
+  top: 36px;
+  right: 38px;
+}
+.phb-ball .garden-wz {
+  position: absolute;
+  top: 638px;
+  left: 175px;
+}
+.phb-ball .xx {
+  position: absolute;
+  top: 609px;
+  right: 150px;
+  width: 24px;
+  height: 24px;
+}
+.artive {
+  display: block;
+}
