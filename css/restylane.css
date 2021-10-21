@@ -101,6 +101,8 @@ body {
   animation: 1s flash forwards linear infinite alternate;
 }
 .head .beauty {
+  width: 327px;
+  height: 327px;
   position: absolute;
   top: 1286px;
   left: 386px;
@@ -142,11 +144,13 @@ body {
   position: absolute;
   top: 1242px;
   left: 56px;
+  animation: 1s flash forwards linear infinite alternate;
 }
 .conert .rmm4 {
   position: absolute;
   top: 750px;
   left: 541px;
+  animation: 1s flash forwards linear infinite alternate;
 }
 .conert .heart2 {
   position: absolute;
@@ -167,6 +171,7 @@ body {
   position: absolute;
   bottom: 43px;
   left: 100px;
+  animation: 1s flash forwards linear infinite alternate;
 }
 .bottom {
   top: 1086px;
@@ -177,6 +182,7 @@ body {
   position: absolute;
   top: 296px;
   right: 57px;
+  animation: 1s flash forwards linear infinite alternate;
 }
 .bottom .bottom1 {
   position: absolute;
@@ -334,8 +340,8 @@ body {
   height: 50px;
   top: 905px;
   left: 350px;
-  z-index: 2;
-  display: block !important;
+  z-index: 1;
+  display: none;
   animation: 1s shakeX forwards;
 }
 .box-rule .qie-huan .file1 {
@@ -351,7 +357,6 @@ body {
   position: absolute;
   top: 260px;
   left: 128px;
-  z-index: 1;
   width: 490px;
   height: 669px;
   overflow: hidden;
@@ -400,6 +405,7 @@ body {
 }
 .box-rule .qie-huan .rule-bjz {
   position: relative;
+  display: none;
 }
 .box-rule .qie-huan .rule-bjz li {
   display: none;
@@ -471,7 +477,6 @@ body {
   height: 50px;
   top: 905px;
   left: 350px;
-  z-index: 2;
   display: none;
   animation: 1s shakeX forwards;
 }
@@ -748,4 +753,111 @@ body {
 }
 .artive {
   display: block;
+}
+.test {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background: url(../img/backr.png) no-repeat;
+  position: absolute;
+}
+.test .star5 {
+  top: 155px;
+  right: 450px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.test .star41 {
+  top: 828px;
+  right: 50px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.test .star4 {
+  position: absolute;
+  top: 1242px;
+  left: 56px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.test .star66 {
+  top: 145px;
+  animation: 1s flash forwards linear infinite alternate;
+  left: 551px;
+}
+.test .star51 {
+  top: 1187px;
+  right: 99px;
+  animation: 1s flash forwards linear infinite alternate;
+}
+.test .test-arrows {
+  position: absolute;
+  right: 30px;
+  width: 93px;
+  height: 78px;
+  top: 36px;
+}
+.test .beauty {
+  top: 33px;
+  right: 62px;
+}
+.test .silk3 {
+  top: 309px;
+  left: 0;
+}
+.test .model {
+  top: 38px;
+  left: 114px;
+}
+.test .label-box {
+  position: relative;
+  top: 500px;
+  left: 0;
+}
+.test .label-box ul {
+  height: 580px;
+  width: 750px;
+}
+.test .label-box ul li {
+  position: absolute;
+  width: 339px;
+  height: 241px;
+}
+.test .label-box ul li:nth-of-type(1) {
+  left: 38px;
+  top: 107px;
+}
+.test .label-box ul li:nth-of-type(2) {
+  right: 30px;
+  top: 0px;
+}
+.test .label-box ul li:nth-of-type(3) {
+  left: 38px;
+  top: 358px;
+}
+.test .label-box ul li:nth-of-type(4) {
+  right: 30px;
+  top: 262px;
+}
+.test .confirm {
+  width: 298px;
+  height: 147px;
+  position: absolute;
+  top: 600px;
+  left: 89px;
+}
+.decompr .decompression {
+  top: 510px;
+  left: 126px;
+}
+.decompr .decoX {
+  position: absolute;
+  top: 523px;
+  left: 588px;
+  width: 23px;
+  height: 23px;
+}
+.decompr .begin-testing {
+  width: 130px;
+  height: 42px;
+  position: absolute;
+  top: 800px;
+  left: 311px;
 }

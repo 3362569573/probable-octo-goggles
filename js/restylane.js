@@ -27,7 +27,8 @@ $(function () {
         $('.zjx').fadeIn();
         $('.rule-bjz').addClass('active');
         $('.picture').addClass('active');
-        // $('.camera').show();
+        $('.rule-bjz').show()
+        $('.camera').show();
         $('.box-rule').removeClass("dn");
         $('.box-rule>div').removeClass("dn");
     })
@@ -71,8 +72,9 @@ $(function () {
             }
         })
     }
-
+    // 获取到上传图片的宽高
     var moveload = document.querySelector('.picture-img');
+    // 把上传图片的宽和高给移动的盒子
     moveload.onload = function () {
         var w_img = $('.picture-img').width();
         var h_img = $('.picture-img').height();
@@ -227,4 +229,9 @@ $(function () {
         }
         console.log(cmq2);
     })
+})
+
+// beauty注册点击跳转页面
+$('.beauty').click(function () {
+    
 })
