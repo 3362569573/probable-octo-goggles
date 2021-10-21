@@ -97,18 +97,18 @@ $(function () {
     move.addEventListener('touchmove', function (e) {
         var moveX = e.targetTouches[0].pageX - startX + x;
         var moveY = e.targetTouches[0].pageY - startY + y;
-        if (moveX <= 0) {
-            moveX = 0;
-        }
-        if (moveY <= 0) {
-            moveY = 0;
-        }
-        if (moveX >= box.offsetWidth - move.offsetWidth) {
-            moveX = box.offsetWidth - move.offsetWidth;
-        }
-        if (moveY >= 669 - (move.offsetWidth + 102)) {
-            moveY = 669 - (move.offsetWidth + 102);
-        }
+        // if (moveX <= 0) {
+        //     moveX = 0;
+        // }
+        // if (moveY <= 0) {
+        //     moveY = 0;
+        // }
+        // if (moveX >= box.offsetWidth - move.offsetWidth) {
+        //     moveX = box.offsetWidth - move.offsetWidth;
+        // }
+        // if (moveY >= 669 - (move.offsetWidth + 102)) {
+        //     moveY = 669 - (move.offsetWidth + 102);
+        // }
         // 最后给this也就是小盒子加上left 和top值
         this.style.left = moveX + 'px';
         this.style.top = moveY + 'px';
@@ -117,7 +117,7 @@ $(function () {
 
     // 点击确认上传跳转到排行榜分享页面
     $('.affirm').click(function () {
-        $('.rule-bjz').children().removeClass('animate')
+        $('.rule-bjz li').children().removeClass('animate');
         var files = $('.file1')[0].files
         // 判断用户有没有上传图片不然不让进入保存页
         if (files.length <= 0) {

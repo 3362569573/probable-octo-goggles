@@ -382,6 +382,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation: 1.5s 0.5s flip forwards;
 }
 .box-rule .qie-huan .qh > div {
   margin-left: 20px;
