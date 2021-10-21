@@ -399,8 +399,6 @@ body {
 }
 .box-rule .qie-huan .rule-bjz {
   position: relative;
-  top: 257px;
-  left: 125px;
 }
 .box-rule .qie-huan .rule-bjz li {
   display: none;
@@ -549,7 +547,6 @@ body {
   position: relative;
   top: 257px;
   left: 125px;
-  display: none;
 }
 .save-1 .rule-bjz .filv2 {
   position: absolute;

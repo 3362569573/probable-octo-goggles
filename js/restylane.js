@@ -88,7 +88,6 @@ $(function () {
     var x = 0;
     // 给小盒子绑定touchstart事件
     move.addEventListener('touchstart', function (e) {
-        console.log(22);
         startY = e.targetTouches[0].pageY;
         startX = e.targetTouches[0].pageX;
         x = this.offsetLeft;
@@ -96,7 +95,6 @@ $(function () {
     })
     // 给小盒子绑定touchmove事件
     move.addEventListener('touchmove', function (e) {
-        console.log(11);
         var moveX = e.targetTouches[0].pageX - startX + x;
         var moveY = e.targetTouches[0].pageY - startY + y;
         if (moveX <= 0) {
@@ -107,11 +105,9 @@ $(function () {
         }
         if (moveX >= box.offsetWidth - move.offsetWidth) {
             moveX = box.offsetWidth - move.offsetWidth;
-            console.log(5555);
         }
         if (moveY >= 669 - (move.offsetWidth + 102)) {
             moveY = 669 - (move.offsetWidth + 102);
-            console.log(6666);
         }
         // 最后给this也就是小盒子加上left 和top值
         this.style.left = moveX + 'px';
@@ -129,11 +125,12 @@ $(function () {
             return false
         }
         // 使用插件截图
-        html2canvas(document.querySelector(".picture-click"), {
+
+        html2canvas(document.querySelector(".picture"), {
             useCORS: true,
         }).then(canvas => {
-            // document.body.appendChild(canvas)
-            $('.picture').append(canvas);
+            console.log(canvas);
+            $('.rule-bjz').html(canvas);
         });
 
         $('.box-rule').fadeOut();
